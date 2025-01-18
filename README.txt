@@ -1,4 +1,5 @@
-Applikasjonen tar ikke og håndterer duplikat pakker (skjer om timeouten utløses, men ingen pakker har blitt mistet)
-Dette burde egentlig aldri skje med mindre maskinen man kjører applikasjonen på er meget treg, som skjedde ofte på UiO sin programkiosk
+This is an exam in C where I was in charge of writing a file transfer protocol between clients that communicates via a server.
 
-Filene som klientene får ender med klient-IDene, men siden disse er tilfeldige (mellom 0-30000), så antar jeg at dette går fint.
+server.c is a file transfer server
+
+client.c is a file transfer client
